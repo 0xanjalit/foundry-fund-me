@@ -84,7 +84,6 @@ contract FundMe {
         require(callSuccess, "Call failed");
     }
 
-    // Explainer from: https://solidity-by-example.org/fallback/
     // Ether is sent to contract
     //      is msg.data empty?
     //          /   \
